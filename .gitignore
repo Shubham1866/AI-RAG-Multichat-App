@@ -1,0 +1,4 @@
+backend/vector_store/ 
+backend/uploads/ 
+*.faiss 
+*.pkl 
