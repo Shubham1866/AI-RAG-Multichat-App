@@ -1,0 +1,48 @@
+FastAPI
+MySQL
+LangChain - RAG, Prompt
+PDF - PyPDF
+Word - Word File
+Text -
+PDF file containing Images - OCR
+
+ReactJS - Simple UI
+
+
+Folder Structure
+
+routes - post API
+registered in main
+upload - post API
+
+config - model, temp
+llm_client - function return llm object using langchain
+base_prompt - question - add into chatPrompt of langchain and return prompt
+base_chain - function - llm object, prompt object and chain and returned
+
+ask - API - object of chain - and sent question to chain - chain retrieved answer from llm and replied.
+
+Create - Database operation - 
+
+1. Document upload - Entry in table
+2. API Develop - Database table - pull document list - status = not processed yet
+3. RAG - Retrieval - Embedding and Content
+4. Embedding save and content save
+
+
+5. ask - Question - embedding - semantic - RAG - top 3 content blocks - 
+			Go to LLM and generate answer
+
+
+
+
+Overview of project:
+
+Recruitment pla􀆞orms receive thousands of resumes in unstructured PDF formats.
+Manual extrac􀆟on of candidate details is 􀆟me-consuming, error-prone, and not scalable.
+In this capstone project, you will design and implement an Intelligent Resume Parsing System that
+automa􀆟cally converts unstructured resume PDFs into structured, machine-readable data using
+Transformer-based NLP models.
+The system must combine Named En􀆟ty Recogni􀆟on (NER), rule-based logic, and embedding-based
+techniques to extract key candidate informa􀆟on with high accuracy.
+			

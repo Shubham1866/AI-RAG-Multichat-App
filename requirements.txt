@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+python-multipart
+pydantic
+pypdf
+faiss-cpu
+numpy
+tiktoken
+openai
+python-dotenv
+passlib[bcrypt]
+python-jose
+pydantic[email]
