@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-DATABASE_URL = "mysql+pymysql://root:Shubham1866@localhost:3306/rag_chat_db"
+DATABASE_URL = "YOUR DATABASE CONNECTION URL"
 
 #Connection
 engine = create_engine(
